@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tree Data Structure - BFS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="form">
+  <h2 class="title">Binary tree</h2>
+  <p class="subtitle">
+    *  Створити програму, яка дозволяє додавати елементи у бінарне дерево і виводити дерево на екран. Кожен вузол дерева містить числове значення (інформаційна частина). Принцип додавання елемента: є кореневий вузол, новий елемент додається зліва, якщо його інформаційна частина менша від кореневої (безпосереднього батьківського вузла), і додавється справа, якщо його інформаційна частина більша.
+  </p>
+  <div class='input-box'>
+    <input id='tree-input' type='number' placeholder='Enter element(node)...'>
+    <button class="confirm-btn" id='add-to-tree' onclick="addToTree()">Add node to Tree</button>
+  </div>
+</div>
+<div class="tree center">
+  <canvas id='my-canvas' width="1000" height="1000">
+    Your browser doesnot support canvas
+  </canvas>
+</div>
+<script src="finaly.js" type="text/javascript"></script>
+</body>
+</html>
